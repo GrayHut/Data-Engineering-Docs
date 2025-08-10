@@ -1,3 +1,5 @@
+![alt text](media/image.png)
+
 # Core Concepts in Data
 
 #### Within this blog, we are going to define and explore some core concepts within the data field. Such concepts feature in various spheres within the data ecosystem such as Data engineering, data analytics, Big data, cloud computing etc
@@ -144,11 +146,11 @@ We can begin by defining a **distributed system**; It is a collection of nodes (
 **Distributed processing** (especially in data) alludes to a model where different parts of a data processing task is carried out by a number of different resources/nodes that operate within a network.
 
 Distributed processing features the following concepts;
-- **Parallel processing framework (parallelism)**:
-- **Scalability & resource management**:
-- **Partitioning & data distribution**:
-- **Fault tolerance & reliability**:
-- **Synchronization & data consistency**:
-- **Data agregation and result integration**:
+- **Parallel processing framework (parallelism)**: parallelism is a processing structure that allows many tasks/calculations/processes to be carried out across various nodes simultaneously. Distributed data processing utilizes parallel processing frameworks such as Apache Hadoop & Apache Spark to provide infrastructure for this type of processing.
+- **Scalability & resource management**: distributed computing involves making the system adaptable to various processing capacities through balacing computation, storage and network resources across the various nodes. Resource management techniques including load balancing and dynamic resource allocation are key in determining system performance.
+- **Partitioning & data distribution**: partitioning involves the division of one dataset into several smaller chunks which are then distributed across various nodes allowing for parallel processing. This allows for better resource utilization during processing.
+- **Fault tolerance & reliability**: distributed systems should me able to maneouver errors/faults during processing to avoid downtimes. Techniques such as redundancy and fault detection algorithms are used to increase system reliabilty.
+- **Synchronization & data consistency**: since many nodes are working simultaniously on various chunks of the same processes, it is important that they maintain coherence and have accurate data results. Techniques such as locking mecahnisms and data replication play a vital role in achieving this.
+- **Data agregation and result integration**: this involves coming up with the final outcome of the different inividual partitions through integration and agregattion techniques.
 
 Distributed processing is utilized by big organizations like *Amazon, Google, Meta* etc to carry out their huge data processing requirements more efficiently, reliably and with high speeds.
